@@ -20,5 +20,4 @@ class AppSettings {
   AppSettings copyWith({ThemeColor? themeColor}) {
     return AppSettings(themeColor: themeColor ?? this.themeColor);
   }
-  
 }
